@@ -1,32 +1,42 @@
 ---
 name: Blockchain Info
-description: With the largest bitcoin wallet platform in the world, Blockchain's software
-  has powered over 100M transactions and empowered users in 130 countries across the
-  globe to transact quickly and without costly intermediaries. We also offers tools
-  for develo...
+x-slug: blockchain-info
+description: With the largest bitcoin wallet platform in the world, Blockchain???s
+  software has powered over 100M transactions and empowered users in 130 countries
+  across the globe to transact quickly and without costly intermediaries. We also
+  offers tools for develo...
 image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
 x-kinRank: "8"
 x-alexaRank: "842"
-tags:
-- Technology
-- SaaS
-- Marketplace
-- internet
-- Blockchains
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Charts
+created: "2018-06-17"
+modified: "2018-06-17"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain-info/apis.md
 specificationVersion: "0.14"
 apis:
 - name: Blockchain Info Chart Type
+  x-api-slug: blockchain-info
   description: Returns chart types.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
   humanURL: https://blockchain.info
-  baseURL: https://blockchain.info//
+  baseURL: https://blockchain.info//Blockchain,s
+  tags: Blockchain,Charts
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain-info/blockchains-get-openapi.md
+- name: Blockchain Info
+  x-api-slug: blockchain-info
+  description: With the largest bitcoin wallet platform in the world, Blockchain???s
+    software has powered over 100M transactions and empowered users in 130 countries
+    across the globe to transact quickly and without costly intermediaries. We also
+    offers tools for develo...
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
+  humanURL: https://blockchain.info
+  baseURL: https://blockchain.info/
   tags: Charts
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain-info/blockchain,s-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain-info/openapi.md
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/blockchain-info
