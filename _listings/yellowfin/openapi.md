@@ -1,9 +1,9 @@
 ---
 swagger: "2.0"
-x-collection-name: Blockchain
+x-collection-name: Yellowfin
 x-complete: 1
 info:
-  title: Blockchain
+  title: Yellowfin
   version: 1.0.0
 schemes:
 - http
