@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digit
 x-kinRank: "7"
 x-alexaRank: "55455"
 tags: Charts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/apis.md
 specificationVersion: "0.14"
 apis:
@@ -72,6 +72,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-openapi.md
+- name: 7digital Catalogue API - track/chart
+  x-api-slug: trackchart-get
+  description: This endpoint returns a chart of the most purchased tracks for given
+    week. To retrieve the most recent charts as published on 7digital.com the toDate
+    parameter should be omitted.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
+  humanURL: http://7digital.com
+  baseURL: ://api.7digital.com/1.2/
+  tags: Downloads, MP3, Streaming, Mobile, SaaS, Music, API Provider, Stores, Profiles,
+    Publish, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-openapi.md
+- name: 7digital Catalogue API - release/chart
+  x-api-slug: releasechart-get
+  description: This endpoint returns a chart of the most purchased releases for given
+    week. Only albums are included in this chart. To retrieve the most recent charts
+    as published on 7digital.com the toDate parameter should be omitted.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
+  humanURL: http://7digital.com
+  baseURL: ://api.7digital.com/1.2/
+  tags: Downloads, MP3, Streaming, Mobile, SaaS, Music, API Provider, Stores, Profiles,
+    Publish, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/releasechart-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/releasechart-get-openapi.md
 - name: 7digital Purchasing API - release/chart
   x-api-slug: releasechart-get
   description: This endpoint returns a chart of the most purchased releases for given
@@ -132,6 +162,36 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-openapi.md
+- name: 7digital Purchasing API - track/chart
+  x-api-slug: trackchart-get
+  description: This endpoint returns a chart of the most purchased tracks for given
+    week. To retrieve the most recent charts as published on 7digital.com the toDate
+    parameter should be omitted.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
+  humanURL: http://7digital.com
+  baseURL: https://api.7digital.com/1.2/
+  tags: Downloads, MP3, Streaming, Mobile, SaaS, Music, API Provider, Stores, Profiles,
+    Publish, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/trackchart-get-openapi.md
+- name: 7digital Purchasing API - release/chart
+  x-api-slug: releasechart-get
+  description: This endpoint returns a chart of the most purchased releases for given
+    week. Only albums are included in this chart. To retrieve the most recent charts
+    as published on 7digital.com the toDate parameter should be omitted.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg
+  humanURL: http://7digital.com
+  baseURL: https://api.7digital.com/1.2/
+  tags: Downloads, MP3, Streaming, Mobile, SaaS, Music, API Provider, Stores, Profiles,
+    Publish, General Data, Relative Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/releasechart-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/releasechart-get-openapi.md
 x-common:
 - type: x--net-sdk
   url: https://github.com/7digital/SevenDigital.Api.Wrapper

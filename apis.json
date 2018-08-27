@@ -1,0 +1,261 @@
+{
+	"name": "Streadata.io API Gallery - Charts",
+	"description": "This is a repository of charts APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/charts.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://charts.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Xignite",
+			"x-api-slug": "xignite",
+			"description": "Financial market data on-demand. Xignite financial Web services help build smarter websites and applications in minutes with zero up-front investment.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xignite-logo.png",
+			"humanURL": "http://www.xignite.com",
+			"baseURL": "https://www.xignite.com/xVWAP.json/XigniteVWAP",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/xignite/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "7digital",
+			"x-api-slug": "7digital",
+			"description": "Welcome to 7digital!    Choose from over 30 million high quality tracks in our store; download, sync and play your music on the go.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/294-7digital.jpg",
+			"humanURL": "http://7digital.com",
+			"baseURL": "https://api.7digital.com/1.2/",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Gliffy",
+			"x-api-slug": "gliffy",
+			"description": "Make UML diagrams, flowcharts, wireframes and more. Our diagramming software and visual communication tools improve team collaboration and workflow.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/413-gliffy-hq.jpg",
+			"humanURL": "http://www.gliffy.com/",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/gliffy/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Cacoo",
+			"x-api-slug": "cacoo",
+			"description": "Online diagram software to create and securely share flowcharts, wireframes, UML models, network diagram and more. Over 2.5 million users. Start with a Free account!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/553-cacoo.jpg",
+			"humanURL": "https://cacoo.com",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/cacoo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "iCharts",
+			"x-api-slug": "icharts",
+			"description": "Real-time business intelligence reporting and analytics for NetSuite and Google Cloud. iCharts BI is the native visual reporting application for NetSuite.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1074-icharts.jpg",
+			"humanURL": "http://www.icharts.net",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/icharts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yellowfin",
+			"x-api-slug": "yellowfin",
+			"description": "Find out how Yellowfin BIs integrated analytics platform takes you beyond data and dashboards with data transformation, creation of analytical apps, market leading collaboration tools and more. Try Yellowfin today to illuminate your data and discover ...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1223-yellowfin.jpg",
+			"humanURL": "http://www.yellowfinbi.com/YFWebsite-Embedded-Business-Intelligence-77979",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/yellowfin/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HighCharts",
+			"x-api-slug": "highcharts",
+			"description": "Highcharts - Interactive JavaScript charts for your web pages.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1651-highcharts.jpg",
+			"humanURL": "http://www.highcharts.com/",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/highcharts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IdeaSynthesis",
+			"x-api-slug": "ideasynthesis",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/1906_logo.png",
+			"humanURL": "http://textibility.com/",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/ideasynthesis/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plotly",
+			"x-api-slug": "plotly",
+			"description": "Plotly is the easiest and fastest way to graph and share your data online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2209-plotly.jpg",
+			"humanURL": "https://plot.ly/",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/plotly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blockchain",
+			"x-api-slug": "blockchain",
+			"description": "With the largest bitcoin wallet platform in the world, Blockchains software has powered over 100M transactions and empowered users in 130 countries across the globe to transact quickly and without costly intermediaries. We also offers tools for develo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg",
+			"humanURL": "https://blockchain.info",
+			"baseURL": "https:///",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Entertainment Express",
+			"x-api-slug": "entertainment-express",
+			"description": "Internet Video Archive (IVA) is a leading entertainment data company providing metadata, images and trailers/clips, for movie and TV content. With the launch of its award-winning Entertainment Express APIs, clients can easily access everything they need to create engaging content discovery experiences. By using Entertainment Express, clients can also connect to other services like movie showtimes and ticketing, content recommendations, content availability and TV channel line-ups. With over a million titles, episodes and over 150,000 videos available, IVA makes it easy for developers to integrate all the services they need at a very affordable price.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png",
+			"humanURL": "https://www.internetvideoarchive.com/",
+			"baseURL": "https://ee.iva-api.com//",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/entertainment-express/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Charts",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/xibo/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Charts",
+	"include": [
+		{
+			"name": "Xignite",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/xignite/apis.yaml"
+		},
+		{
+			"name": "7digital",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/7digital/apis.yaml"
+		},
+		{
+			"name": "Gliffy",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/gliffy/apis.yaml"
+		},
+		{
+			"name": "Cacoo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/cacoo/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "iCharts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/icharts/apis.yaml"
+		},
+		{
+			"name": "Yellowfin",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/yellowfin/apis.yaml"
+		},
+		{
+			"name": "HighCharts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/highcharts/apis.yaml"
+		},
+		{
+			"name": "IdeaSynthesis",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/ideasynthesis/apis.yaml"
+		},
+		{
+			"name": "Plotly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/plotly/apis.yaml"
+		},
+		{
+			"name": "Blockchain",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain/apis.yaml"
+		},
+		{
+			"name": "Entertainment Express",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/entertainment-express/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/xibo/apis.yaml"
+		}
+	]
+}

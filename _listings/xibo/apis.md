@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Charts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/xibo/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Xibo API - Add a Chart Widget
+  x-api-slug: playlistwidgetchartplaylistid-post
+  description: Add a new Chart Widget to the specified playlist
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg
+  humanURL: http://www.xibo.org.uk
+  baseURL: https:////api
+  tags: Signs, Signage, Display, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/xibo/playlistwidgetchartplaylistid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/xibo/playlistwidgetchartplaylistid-post-openapi.md
 - name: Xibo API - Add a Chart Widget
   x-api-slug: playlistwidgetchartplaylistid-post
   description: Add a new Chart Widget to the specified playlist

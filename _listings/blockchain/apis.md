@@ -9,11 +9,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-bloc
 x-kinRank: "8"
 x-alexaRank: "3499"
 tags: Charts
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Blockchain Info - Chart Type
+  x-api-slug: blockchains-get
+  description: Returns chart types.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28138-blockchain-info.jpg
+  humanURL: https://blockchain.info
+  baseURL: https://blockchain.info/
+  tags: Technology, SaaS, Marketplace, internet, Blockchains, API Provider, Profiles,
+    General Data, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/charts/master/_listings/blockchain/blockchains-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://blizzard.api.gallery.streamdata.io
